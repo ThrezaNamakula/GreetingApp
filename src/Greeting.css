@@ -1,0 +1,28 @@
+.greetingsMain .header{
+    align-items: center
+}
+
+.greetingsMain .header h1 {
+    padding: 10px;
+    font-size: 40px;
+   
+    color: greenyellow;
+    
+  }
+
+
+  .greetingsMain .header h2 {
+    padding: 10px;
+    font-size: 30px;
+   align-items: center;
+    color:rgb(66, 54, 117) ;
+    
+  }
+
+  .greetingsMain .header p {
+    padding: 10px;
+    font-size: 20px;
+   align-items: center;
+    color:rgb(66, 54, 117) ;
+    
+  }
