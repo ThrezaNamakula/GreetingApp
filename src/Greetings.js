@@ -31,9 +31,12 @@ class Greetings extends Component {
     getPartOfDay() {
         if (this.state.hours < 12) {
             return "Morning";
-        } else {
+        } else if(this.state.hours >= 12) {
             return "Afternoon"
+        } else if (this.state.hours > 18){
+          return "Evening"
         }
+        else if (this.state.hours > 21) {return "Night"}
     }
 
 
